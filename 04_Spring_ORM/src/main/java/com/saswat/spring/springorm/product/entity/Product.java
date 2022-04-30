@@ -1,4 +1,4 @@
-package com.saswat.spring.springormnew.product.entity;
+package com.saswat.spring.springorm.product.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,7 +8,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "product")
 public class Product {
-
 	@Id
 	@Column(name = "id")
 	private int id;
@@ -49,11 +48,6 @@ public class Product {
 
 	public void setPrice(double price) {
 		this.price = price;
-	}
-
-	@Override
-	public String toString() {
-		return "Product [id=" + id + ", name=" + name + ", desc=" + desc + ", price=" + price + "]";
 	}
 
 }

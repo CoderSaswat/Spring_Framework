@@ -1,4 +1,4 @@
-package com.saswat.spring.springcoreadvanced.propertyfile;
+package com.saswat.spring.springcore.propertyfile;
 
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

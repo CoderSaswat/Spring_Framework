@@ -1,4 +1,4 @@
-package com.saswat.spring.springcoreadvanced.propertyfile;
+package com.saswat.spring.springcore.propertyfile;
 
 public class MyDao {
 	private String dbServer;
